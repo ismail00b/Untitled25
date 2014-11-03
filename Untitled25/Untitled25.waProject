@@ -15,10 +15,13 @@
   <folder path="./DataFolder/">
     <tag name="dataFolder"/>
   </folder>
+<<<<<<< HEAD
   <folder path="./Widgets/">
     <tag name="widgets"/>
   </folder>
   <folder path="./Themes/">
     <tag name="themes"/>
   </folder>
+=======
+>>>>>>> 1eeb4406408ff1e3cd127a7b212ff608d53fa19b
 </project>

@@ -8,12 +8,21 @@
 	<service name="webApp" modulePath="services/webApp" enabled="true" autoStart="true"/>
 	<service name="rpc" modulePath="services/rpc" enabled="true" autoStart="true" proxyPattern="^/rpc-proxy/" publishInClientGlobalNamespace="false"/>
 	<service name="dataStore" modulePath="services/dataStore" enabled="true" autoStart="true"/>
+<<<<<<< HEAD
 	<service name="upload" modulePath="services/upload" enabled="false" autoStart="true"/>
 	<service name="Git HTTP Service" modulePath="services/waf-git/waf-GitService" enabled="false"/>
 	<service name="Print service" modulePath="services/print" enabled="false"/>
+=======
+	<service name="upload" modulePath="services/upload" enabled="true" autoStart="true"/>
+	<service name="Git HTTP Service" modulePath="services/waf-git/waf-GitService" enabled="true"/>
+>>>>>>> 1eeb4406408ff1e3cd127a7b212ff608d53fa19b
 	<service name="Builder handler" modulePath="services/builder-service" enabled="true" max-age="0" hardCache="false"/>
 	<virtualFolder location="/WIDGETS_CUSTOM/" name="widgets-custom"/>
 	<virtualFolder location="/THEMES_CUSTOM/" name="themes-custom"/>
 	<resources location="/walib/" lifeTime="31536000"/>
 	<javaScript reuseContexts="true"/>
+<<<<<<< HEAD
     </settings>
+=======
+</settings>
+>>>>>>> 1eeb4406408ff1e3cd127a7b212ff608d53fa19b
