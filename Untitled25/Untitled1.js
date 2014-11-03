@@ -1,3 +1,2 @@
-﻿okii !!
-jlfkjdsl
+﻿
 
